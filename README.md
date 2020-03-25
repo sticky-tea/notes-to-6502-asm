@@ -8,10 +8,10 @@ nes_sound snd;
 snd.makeCode(f, d, n, l);
 ```
 where:
-f - vector of double of frequencies
-d - vector of int of durations
-n - bool, true if NTSC
-l - bool, true if looped
+f - vector of double of frequencies, 
+d - vector of int of durations, 
+n - bool, true if NTSC, 
+l - bool, true if looped, 
 
 Also you can make a whole program if you have a file:
 ```cpp
