@@ -1,4 +1,4 @@
-# Notes to NES assembler translator
+# Notes to NES assembler converter
 This lib translates the set of frequencies and durations of notes into the 6502 assembler code
 
 # How to use
@@ -27,4 +27,4 @@ $ g++ examplename.cpp ../nes_sound.cpp
 ```
 
 # How to test
-You can compile .asm using (NESasm)[https://github.com/camsaul/nesasm] and emulate using (FCEUX)[http://www.fceux.com/web/home.html]
+You can compile .asm using [NESasm](https://github.com/camsaul/nesasm) and emulate using [FCEUX](http://www.fceux.com/web/home.html)
